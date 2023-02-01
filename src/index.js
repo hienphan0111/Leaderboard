@@ -1,19 +1,6 @@
 import './style.css';
-import renderBoard from './scoreBoard.js';
+import { updateScore, refresh, submit } from './ui.js';
 
-const scores = [
-  {
-    name: 'one',
-    score: 100,
-  },
-  {
-    name: 'two',
-    score: 80,
-  },
-  {
-    name: 'three',
-    score: 60,
-  },
-];
-
-renderBoard(scores);
+updateScore();
+refresh();
+submit();
