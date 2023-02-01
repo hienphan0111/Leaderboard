@@ -7,6 +7,33 @@
   <title>Leaderboard</title>
 </head>
 <body>
-  
+  <header>
+    <h1>Leaderboard</h1>
+  </header>  
+  <main>
+    <section class="board">
+      <div class="board-header">
+        <h3>Recent score</h3>
+        <button id="refresh">Refresh</button>
+      </div>
+      <div class="board-score">
+       
+
+      </div>
+    </section>
+    <section class="add-score">
+      <div class="add-title">
+        <h3>Add your score</h3>
+      </div>
+      <div class="add-form">
+        <form action="submit" class="add-score-form">
+          <input type="text" id="name" placeholder="Your name" class="i-content">
+          <input type="text" id="score" placeholder="Your score" class="i-content">
+          <input type="submit" id="submit" name="Submit">
+        </form>
+      </div>
+    </section>
+  </main>
+  <script src="./index.js"></script>
 </body>
 </html>
