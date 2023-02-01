@@ -1,4 +1,4 @@
-const renderBoard = (scores) => {
+export default function renderBoard(scores) {
   const boardScore = document.querySelector('.board-score');
   const ul = document.createElement('ul');
   scores.forEach((item) => {
@@ -9,6 +9,4 @@ const renderBoard = (scores) => {
     ul.appendChild(li);
   });
   boardScore.appendChild(ul);
-}
-
-export { renderBoard };
+};

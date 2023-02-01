@@ -18,6 +18,7 @@ main {
 
 .board-header {
   display: flex;
+  align-items: center;
 }
 
 .board-score {
@@ -31,21 +32,15 @@ main {
   display: flex;
   flex-direction: column;
   list-style: none;
-  align-items: left;
 }
 
 .score-item {
   padding: 5px;
-  border-bottom: 1px solid #000
+  border-bottom: 1px solid #000;
 }
 
 .score-item:nth-child(even) {
-  background-color: rgba(0,0,0, 0.2);
-}
-
-.board-header {
-  display: flex;
-  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 #refresh {

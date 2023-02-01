@@ -1,5 +1,5 @@
-import "./style.css";
-import { renderBoard } from './scoreBoard.js';
+import './style.css';
+import renderBoard from './scoreBoard.js';
 
 const scores = [
   {
