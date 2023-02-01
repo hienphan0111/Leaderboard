@@ -9,4 +9,4 @@ export default function renderBoard(scores) {
     ul.appendChild(li);
   });
   boardScore.appendChild(ul);
-};
+}
