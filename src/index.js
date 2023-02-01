@@ -1,5 +1,5 @@
 import './style.css';
-import { updateScore, refresh, submit } from './ui';
+import { updateScore, refresh, submit } from './ui.js';
 
 updateScore();
 refresh();
