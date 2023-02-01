@@ -14,11 +14,11 @@ const getScores = async () => {
     throw new Error('Something went wrong, try again');
   }
   return json.result;
-}
+};
 
 const pushScore = async (score) => {
   try {
-    const res = await fetch(url, {
+    await fetch(url, {
       method: 'POST',
       body: JSON.stringify(score),
       headers: {
@@ -28,6 +28,6 @@ const pushScore = async (score) => {
   } catch (e) {
     throw new Error('Something went wrong, try again');
   }
-}
+};
 
 export { getScores, pushScore };
