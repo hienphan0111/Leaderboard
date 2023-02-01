@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Handlee', cursive;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.score-board {
+  display: block;
+}
+
+.board-header {
+  display: flex;
+}
+
+.board-score {
+  border: 2px solid #000;
+  padding: 0;
+}
+
+.board-score > ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: left;
+}
+
+.score-item {
+  padding: 5px;
+  border-bottom: 1px solid #000
+}
+
+.score-item:nth-child(even) {
+  background-color: rgba(0,0,0, 0.2);
+}
+
+.board-header {
+  display: flex;
+  align-items: center;
+}
+
+#refresh {
+  margin: 10px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-score-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.i-content {
+  margin: 5px 0;
+  padding: 5px;
+}
+
+#submit {
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
