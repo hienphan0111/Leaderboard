@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 
 body {
-  margin: 0;
   box-sizing: border-box;
   font-family: 'Handlee', cursive;
   max-width: 680px;
@@ -31,9 +30,9 @@ main {
   display: flex;
   flex-direction: column;
   list-style: none;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.38);
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.38);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.38);
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.38);
+  -webkit-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.38);
 }
 
 .score-item {
@@ -52,7 +51,12 @@ main {
   transition: 1s;
 }
 
-#refresh:active, 
+#submit {
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#refresh:active,
 #submit:active {
   transform: translate(5px, 5px);
   box-shadow: none;
@@ -66,7 +70,7 @@ main {
 .add-f {
   background-color: rgba(7, 28, 91, 0.807);
   padding: 20px;
-  box-shadow: 4px 11px 21px 6px rgba(0,0,0,0.1);
+  box-shadow: 4px 11px 21px 6px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   color: #fff;
 }
@@ -80,9 +84,4 @@ main {
 .i-content {
   margin: 5px 0;
   padding: 5px;
-}
-
-#submit {
-  padding: 5px;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
