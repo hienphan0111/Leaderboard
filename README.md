@@ -46,7 +46,7 @@ The leaderboard website displays scores submitted by different players. It also 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-To see the demo version, you can <a href="https://hienphan0111.github.io/leaderboard/dist"> Click here </a>
+To see the demo version, you can <a href="https://leaderboard-glie.vercel.app/"> Click here </a>
 
 <!-- GETTING STARTED -->
 
@@ -98,7 +98,7 @@ npm test
 
 ### Deployment
 
-The project was deployed which you can access this link: https://hienphan0111.github.io/Leaderboard/dist
+The project was deployed which you can access this link: https://leaderboard-glie.vercel.app/
 
 
 
