@@ -67,7 +67,7 @@ git clone https://github.com/hienphan/Leaderboard.git
 ```
 3. To access cloned directory run:
 ```bash
-cd MyPortfolio
+cd Leaderboard
 ```
 3. Open it with the live server
 
@@ -82,37 +82,25 @@ npm install
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
 ```
---->
+npm test
+
+```
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
 ```
---->
+npm test
+
+```
 
 ### Deployment
 
 The project was deployed which you can access this link: https://hienphan0111.github.io/Leaderboard/dist
 
-<!--
-Example:
 
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,8 +147,8 @@ I would like to thank Microverse
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [GNU v3](./LICENSE.md) licensed.
 And also is <a href="https://creativecommons.org/licenses/">Creative Commons License </a>
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
