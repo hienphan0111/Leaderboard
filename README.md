@@ -41,12 +41,15 @@ The leaderboard website displays scores submitted by different players. It also 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
+React,
+Redux,
+Js,
+SCSS
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-To see the demo version, you can <a href="https://hienphan0111.github.io/leaderboard/dist"> Click here </a>
+To see the demo version, you can <a href="https://leaderboard-glie.vercel.app/"> Click here </a>
 
 <!-- GETTING STARTED -->
 
@@ -67,7 +70,7 @@ git clone https://github.com/hienphan/Leaderboard.git
 ```
 3. To access cloned directory run:
 ```bash
-cd MyPortfolio
+cd Leaderboard
 ```
 3. Open it with the live server
 
@@ -82,37 +85,25 @@ npm install
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
 ```
---->
+npm test
+
+```
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
 ```
---->
+npm test
+
+```
 
 ### Deployment
 
-The project was deployed which you can access this link: https://hienphan0111.github.io/Leaderboard/dist
+The project was deployed which you can access this link: https://leaderboard-glie.vercel.app/
 
-<!--
-Example:
 
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -159,8 +150,8 @@ I would like to thank Microverse
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./MIT.md) licensed.
+This project is [GNU v3](./LICENSE.md) licensed.
 And also is <a href="https://creativecommons.org/licenses/">Creative Commons License </a>
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
